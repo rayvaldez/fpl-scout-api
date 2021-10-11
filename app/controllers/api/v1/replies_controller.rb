@@ -1,4 +1,4 @@
-class RepliesController < ApplicationController
+class Api::V1::RepliesController < ApplicationController
 
   def index
     player = Player.find(params[:player_id])
@@ -25,5 +25,5 @@ class RepliesController < ApplicationController
   def reply_params
     params.require(:report).permit(:comment_id, :text)
   end
-  
+
 end
