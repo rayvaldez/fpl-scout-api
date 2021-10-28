@@ -6,3 +6,72 @@
 2021-10-15 15:36:10.512 BST [60063] LOG:  database system is ready to accept connections
 2021-10-15 15:36:20.793 BST [60078] FATAL:  database "fpl_scout_api_development" does not exist
 2021-10-15 15:36:21.047 BST [60080] FATAL:  database "fpl_scout_api_development" does not exist
+2021-10-19 11:53:48.159 BST [60063] LOG:  received smart shutdown request
+2021-10-19 11:53:48.161 BST [60063] LOG:  background worker "logical replication launcher" (PID 60070) exited with exit code 1
+2021-10-19 11:53:48.161 BST [60065] LOG:  shutting down
+2021-10-19 11:53:48.173 BST [60063] LOG:  database system is shut down
+2021-10-25 18:56:18.871 BST [7249] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-10-25 18:56:18.873 BST [7249] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-25 18:56:18.873 BST [7249] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-25 18:56:18.874 BST [7249] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-25 18:56:18.877 BST [7250] LOG:  database system was shut down at 2021-10-25 18:55:35 BST
+2021-10-25 18:56:18.879 BST [7249] LOG:  database system is ready to accept connections
+2021-10-25 18:56:34.441 BST [7260] FATAL:  database "fpl_scout_api_development" does not exist
+2021-10-25 18:57:04.323 BST [7270] FATAL:  database "fpl_scout_api_development" does not exist
+2021-10-25 19:10:38.162 BST [7343] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-10-25 19:10:38.164 BST [7343] LOG:  could not bind IPv6 address "::1": Address already in use
+2021-10-25 19:10:38.164 BST [7343] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-25 19:10:38.164 BST [7343] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2021-10-25 19:10:38.164 BST [7343] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2021-10-25 19:10:38.164 BST [7343] WARNING:  could not create listen socket for "localhost"
+2021-10-25 19:10:38.164 BST [7343] FATAL:  could not create any TCP/IP sockets
+2021-10-25 19:10:38.165 BST [7343] LOG:  database system is shut down
+2021-10-25 19:10:48.539 BST [7249] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-10-25 19:10:48.539 BST [7249] LOG:  performing immediate shutdown because data directory lock file is invalid
+2021-10-25 19:10:48.539 BST [7249] LOG:  received immediate shutdown request
+2021-10-25 19:10:48.539 BST [7249] LOG:  could not open file "postmaster.pid": No such file or directory
+2021-10-25 19:10:48.539 BST [7254] WARNING:  terminating connection because of crash of another server process
+2021-10-25 19:10:48.539 BST [7254] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2021-10-25 19:10:48.539 BST [7254] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2021-10-25 19:10:48.539 BST [7255] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2021-10-25 19:10:48.542 BST [7249] LOG:  database system is shut down
+2021-10-25 19:10:52.541 BST [7349] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-10-25 19:10:52.543 BST [7349] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-25 19:10:52.543 BST [7349] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-25 19:10:52.543 BST [7349] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-25 19:10:52.547 BST [7350] LOG:  database system was shut down at 2021-10-25 19:10:27 BST
+2021-10-25 19:10:52.549 BST [7349] LOG:  database system is ready to accept connections
+2021-10-27 19:52:07.924 BST [7349] LOG:  received smart shutdown request
+2021-10-27 19:52:07.926 BST [7349] LOG:  background worker "logical replication launcher" (PID 7356) exited with exit code 1
+2021-10-27 19:52:07.926 BST [7351] LOG:  shutting down
+2021-10-27 19:52:07.936 BST [7349] LOG:  database system is shut down
+2021-10-28 21:13:54.521 BST [3785] LOG:  starting PostgreSQL 13.4 on x86_64-apple-darwin20.4.0, compiled by Apple clang version 12.0.5 (clang-1205.0.22.9), 64-bit
+2021-10-28 21:13:54.524 BST [3785] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-10-28 21:13:54.524 BST [3785] LOG:  listening on IPv6 address "::1", port 5432
+2021-10-28 21:13:54.525 BST [3785] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-10-28 21:13:54.528 BST [3786] LOG:  database system was shut down at 2021-10-28 21:13:35 BST
+2021-10-28 21:13:54.530 BST [3785] LOG:  database system is ready to accept connections
+2021-10-28 21:37:44.967 BST [3990] ERROR:  relation "players" does not exist at character 454
+2021-10-28 21:37:44.967 BST [3990] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"players"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2021-10-28 21:40:35.247 BST [4017] ERROR:  relation "players" does not exist at character 454
+2021-10-28 21:40:35.247 BST [4017] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"players"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	

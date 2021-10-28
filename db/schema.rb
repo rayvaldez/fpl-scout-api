@@ -18,17 +18,7 @@ ActiveRecord::Schema.define(version: 2021_10_09_184534) do
   create_table "comments", force: :cascade do |t|
     t.string "text"
     t.integer "gameweek"
-    t.bigint "player_id", null: false
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["player_id"], name: "index_comments_on_player_id"
-  end
-
-  create_table "players", force: :cascade do |t|
-    t.string "name"
-    t.string "team"
-    t.string "position"
-    t.float "price"
+    t.integer "player_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -41,6 +31,5 @@ ActiveRecord::Schema.define(version: 2021_10_09_184534) do
     t.index ["comment_id"], name: "index_replies_on_comment_id"
   end
 
-  add_foreign_key "comments", "players"
   add_foreign_key "replies", "comments"
 end
