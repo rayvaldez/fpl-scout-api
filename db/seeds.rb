@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Comment.create(player_id: 251, text: 'Back from injury and finding his form, definite spot in the team', gameweek: 8)
