@@ -29,12 +29,17 @@ class Api::V1::PlayersController < ApplicationController
   private
 
   def fetch_players
-    url = 'http://fantasy.premierleague.com/api/bootstrap-static/'
-    data = RestClient.get(url)
-    parsed = JSON.parse(data)
-    p = parsed["elements"]
-    player_array = p.map { |a| [a['first_name'] + " " + a['second_name'], a['now_cost'], a['team']]}
-    players = player_array.map { |a| Player.create(name: a[0], price:a[1], team:a[2])}
+    # url = 'http://fantasy.premierleague.com/api/bootstrap-static/'
+    # data = RestClient.get(url)
+    # parsed_data = JSON.parse(data)
+    # p = parsed["elements"]
+    # players = p
+    # url = 'http://fantasy.premierleague.com/api/bootstrap-static/'
+    # data = RestClient.get(url)
+    # parsed = JSON.parse(data)
+    # p = parsed["elements"]
+    # player_array = p.map { |a| [a['first_name'] + " " + a['second_name'], a['now_cost'], a['team']]}
+    # players = player_array.map { |a| Player.create(name: a[0], price:a[1], team:a[2])}
   end
 
   def player_params
