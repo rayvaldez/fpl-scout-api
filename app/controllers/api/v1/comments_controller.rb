@@ -21,6 +21,6 @@ class Api::V1::CommentsController < ApplicationController
   private
 
   def comment_params
-    params.require(:comment).permit(:player_id, :text, :gameweek)
+    params.require(:comment).permit(:player_id, :text, :name)
   end
 end
