@@ -1,15 +1,13 @@
 class Api::V1::RepliesController < ApplicationController
 
   def index
-    player = Player.find(params[:player_id])
-    replies = player.replies
+    replies = Reply.all
 
     render json: replies, status:200
   end
 
   def create
-    player = Player.find(params[:player_id])
-    reply = player.replies.create(reply_params)
+    reply = Reply.create(reply_params)
 
     render json: reply, status:200
   end
@@ -23,7 +21,7 @@ class Api::V1::RepliesController < ApplicationController
   private
 
   def reply_params
-    params.require(:report).permit(:comment_id, :text)
+    params.require(:reply).permit(:comment_id, :text, :name)
   end
 
 end
